@@ -1,0 +1,68 @@
+.ace_editor,
+.ace_scroller,
+.ace_content {
+    color: #dcdcdc !important;
+}
+
+
+.ace_selection {
+    background-color: rgba(0, 149, 255, 0.274) !important;
+}
+
+/* 語法顏色 */
+.ace_keyword {
+    color: #569cd6 !important;
+}
+
+.ace_string {
+    color: #ce9178 !important;
+}
+
+.ace_constant.ace_language.ace_escape {
+    color: yellow;
+}
+
+.ace_function {
+    color: #dcdcaa !important;
+}
+
+.ace_comment {
+    color: #3dbc02 !important;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.ace_storage.ace_type {
+    color: rgb(0, 132, 255) !important;
+}
+
+.ace_constant.ace_numeric {
+    color: rgb(176, 239, 176);
+}
+
+.ace_active-line {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px rgb(56, 55, 55);
+}
+
+
+.ace_indent-guide {
+    background: rgb(48, 47, 47) !important;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: rgb(94, 92, 92);
+}
+
+
+/* 游標 */
+.ace_cursor {
+    border-left: 2px solid #ffffff !important;
+}
+
+/* 上方工具列 */
+#codeWorkspace {
+    background-color: #2b2b2b !important;
+    color: white !important;
+}

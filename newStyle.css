@@ -1,0 +1,19 @@
+/* Whole background */
+.wrapper {
+    background-color: rgba(128, 126, 126, 1)
+}
+
+/* Blocks dragging bar */
+.droplet-palette-wrapper {
+    display: none;
+}
+
+/* Text editor background color */
+.ace_scroller {
+    background-color: rgb(48, 47, 47)
+}
+
+/* Left Indexs bar */
+.ace_gutter {
+    background-color: rgb(48, 47, 47)
+}

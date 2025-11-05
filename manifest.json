@@ -1,0 +1,30 @@
+{
+    "name": "Code.org App Lab ++",
+    "description": "This is an extension that can change code.org applab editor into dark mode. Add a button to preview the app in new tab, and add some keyboard shortcut.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://studio.code.org/projects/applab/*/edit"
+            ],
+            "js": [
+                "content.js",
+                "shortcuts.js",
+                "PreviewinNewWindow.js"
+            ],
+            "css": [
+                "newTextStyle.css",
+                "newStyle.css"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
